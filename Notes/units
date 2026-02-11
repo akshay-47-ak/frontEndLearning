@@ -1,0 +1,19 @@
+Units 
+
+
+px - fixed 
+%  - Depending on parent 
+vm - viewport width  (Depending on Screen width)
+vh - viewport height (Depending on Screen height)
+
+vmax -viewport maximum (width or height)
+vmin -viewport minmum (width or height)
+
+
+em - changed according to parent fontsize value when child use em 
+
+1rem = 16 pixel it changed according to root 
+
+ch - used charcter like if 20ch then only 20 characters in lines  
+
+lh - height according to line 
