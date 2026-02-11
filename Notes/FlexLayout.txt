@@ -1,0 +1,20 @@
+ /*display:flex : Used for Side to Side*/
+    display: flex;  
+    
+    /*align-items : Used For Y axis Position Up to Down*/
+    align-items: center;  /*flex-start - used for Top , flex-end used for End*/
+
+    /*justify-content : used for x axis left to right*/
+    justify-content: center;/*flex-start -LeftSide , flex-end -RightSide
+    
+    /* used to make the space bettween elements */
+    justify-content: space-between;
+        
+   /* used to make the space around */
+    justify-content: space-around;
+   
+    /* used to distrubuted space evenly */
+    justify-content: space-evenly;
+
+     /*Used to change the direction of elements like column and Rows */
+    flex-direction: column;

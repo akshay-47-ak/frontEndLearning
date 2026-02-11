@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+
+    /*display:flex : Used for Side to Side*/
+    display: flex;  
+    /*align-items : Used For Y axis Position Up to Down*/
+    align-items: center;  /*flex-start - used for Top , flex-end used for End*/
+    /*justify-content : used for x axis left to right*/
+    justify-content: center;/*flex-start -LeftSide , flex-end -RightSide*/
+    
+   
+    justify-content: space-evenly;
+}
+
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+}
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+}
