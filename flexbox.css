@@ -20,23 +20,44 @@ html,body{
     align-items: center;  /*flex-start - used for Top , flex-end used for End*/
     /*justify-content : used for x axis left to right*/
     justify-content: center;/*flex-start -LeftSide , flex-end -RightSide*/
-    
-   
+    /* used to distrubuted space evenly */
     justify-content: space-evenly;
+   /* used to Solve the problem of Shrinking Warp the Elements in lines */
+    flex-wrap: wrap;
 }
 
 #child1{
     height: 200px;
     width: 200px;
     background-color: crimson;
+    border: 2px solid white;
 }
 #child2{
     height: 200px;
     width: 200px;
     background-color: lightblue;
+        border: 2px solid white;
 }
 #child3{
     height: 200px;
     width: 200px;
     background-color: lightgreen;
+        border: 2px solid white;
+}
+
+#child4{
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+        border: 2px solid white;
+}
+
+nav{
+    background-color: azure;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
