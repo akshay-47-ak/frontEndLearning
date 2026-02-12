@@ -24,6 +24,8 @@ html,body{
     justify-content: space-evenly;
    /* used to Solve the problem of Shrinking Warp the Elements in lines */
     flex-wrap: wrap;
+
+ 
 }
 
 #child1{
